@@ -1,6 +1,8 @@
 # Inner City Records
 
-Inner City is widely respected by collectors and critics for making vital European and contemporary jazz-fusion accessible in the late 1970s and early 1980s.  Inner City studios, producers and engineers produced marvelously balanced and tasteful recordings of jazz artists and groups (for example the difference made by Inner City can be heard with Ron Malo-produced-and-engineered Arrowhead by the Wayne Johnson Trio versus followup releases by the same group under other labels or independently).
+Inner City is widely respected by collectors and critics for making vital European and contemporary jazz-fusion accessible in the late 1970s and early 1980s.  Inner City studios, producers and engineers produced marvelously balanced and tasteful recordings of jazz artists and groups.
+
+For example, the difference made by Inner City can be heard in the Ron Malo-produced-and-engineered Arrowhead by the Wayne Johnson Trio (versus followup releases by the same group under other labels or independently).  Malo managed to capture something crystalline, fresh and original, which went missing later, and this is not explained solely by the unfortunately overshadowing and soul-sucking influence of Pat Metheny over Johnson,  but also the absence of Flim and the BB's contributions, previously experienced within the intimacy of Malo's direct approach and Inner City's studios.
 
 This repo builds a deduplicated catalogue of the Inner City Records jazz label and its subsidiaries City Sounds and Aural Explorer, matches each album on Spotify, and creates a Spotify playlist with every track, in release-year order.
 
