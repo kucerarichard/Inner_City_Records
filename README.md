@@ -1,8 +1,14 @@
 # Inner City Records
 
+## Why I Am Getting All Inner City Releases
+
 Inner City is widely respected by collectors and critics for making vital European and contemporary jazz-fusion accessible in the late 1970s and early 1980s.  Inner City studios, producers and engineers produced marvelously balanced and tasteful recordings of jazz artists and groups.
 
 For example, the difference made by Inner City can be heard in the Ron Malo-produced-and-engineered Arrowhead by the Wayne Johnson Trio (versus followup releases by the same group under other labels or independently).  Malo managed to capture something crystalline, fresh and original, which went missing later, and this is not explained solely by the unfortunately overshadowing and soul-sucking influence of Pat Metheny over Johnson,  but also the absence of Flim and the BB's contributions, previously experienced within the intimacy of Malo's direct approach and Inner City's studios.
+
+Seems like, if you've got limited time, you want to hear and to have reference to the best that was ever done.  Therefore,  this repo exists to save time (in the age of an infinite number of streaming artists).  It could also form the basis of a vinyl collection hobby,  where some appreciation would need to be built up.
+
+## Retrieval Repo
 
 This repo builds a deduplicated catalogue of the Inner City Records jazz label and its subsidiaries City Sounds and Aural Explorer, matches each album on Spotify, and creates a Spotify playlist with every track, in release-year order.
 
@@ -13,7 +19,7 @@ The catalogue comes from two sources:
 
 Both sources are merged into `registry.json`, one entry per album. The Spotify matches and the playlist ID are stored in that file too, so every step can be rerun safely.
 
-## Files
+### Files
 
 | File | Purpose |
 | --- | --- |
@@ -26,7 +32,7 @@ Both sources are merged into `registry.json`, one entry per album. The Spotify m
 
 The two standalone scripts still run on their own. Both write `inner_city_releases.md`, `inner_city_releases.pdf`, and `spotify_cache.json`, so running one overwrites the other's output.
 
-## Requirements
+### Requirements
 
 - Python 3.10 or later. Tested on 3.14 under Windows 11.
 - A Spotify account with Premium. Since March 2026, Spotify's developer mode only works for app owners with Premium.
@@ -41,7 +47,7 @@ pip install requests reportlab playwright
 python -m playwright install chromium
 ```
 
-## Spotify app setup
+### Spotify app setup
 
 1. Log in at <https://developer.spotify.com/dashboard>.
 2. Create an app. The name and description can be anything.
@@ -65,7 +71,7 @@ bash:
 export SPOTIFY_CLIENT_ID=... SPOTIFY_CLIENT_SECRET=... DISCOGS_TOKEN=...
 ```
 
-## Usage
+### Usage
 
 ```bash
 python inner_city.py collect      # Discogs + NerdyJazz -> registry.json
@@ -87,7 +93,7 @@ Options:
 
 The first `playlist` run opens Spotify in your browser and asks you to approve access to your playlists. After you click Agree, the script saves the login to `.spotify_user_token.json` and later runs reuse it.
 
-## Registry format
+### Registry format
 
 `registry.json` has two top-level keys. `releases` maps a normalized `artist||album` key to an album entry. `playlist` holds the ID, URL, and track count of the playlist the script created.
 
@@ -116,7 +122,7 @@ The first `playlist` run opens Spotify in your browser and asks you to approve a
 
 Rerunning `collect` adds new albums and source details to the registry. It keeps the existing Spotify data, and it never removes albums.
 
-## Album matching
+### Album matching
 
 Discogs lists each pressing as a separate release. The Discogs fetch first merges pressings with the same label, artist, and title. Then `inner_city.py` merges albums across both sources in two passes.
 
@@ -134,11 +140,11 @@ Discogs lists each pressing as a separate release. The Discogs fetch first merge
 
 The registry built on 2026-11-15 has 429 albums: 320 from both sources, 84 from Discogs only, and 25 from NerdyJazz only. Most NerdyJazz-only albums are 1950s and 1960s European recordings that Inner City reissued but that Discogs lists under other labels.
 
-## Spotify matching
+### Spotify matching
 
 The `spotify` command searches each album twice, first with an `album:"..." artist:"..."` field query and then with a plain text query. It accepts a result when the title similarity is at least 0.75 and the artist similarity is at least 0.6. Before searching, it drops bracketed text and anything after "Featuring" or "With" from the artist name. On 2026-11-15, 184 of the first 405 albums checked had a match.
 
-## Playlist deduplication
+### Playlist deduplication
 
 The `playlist` command reads the matched albums in year order and adds every track from each one. It skips a track in these cases:
 
@@ -148,7 +154,7 @@ The `playlist` command reads the matched albums in year order and adds every tra
 
 On each run the command first reads the playlist's current tracks, so a rerun adds only tracks that are missing. If the saved playlist has been deleted in Spotify, the command creates a new one.
 
-## Rate limits
+### Rate limits
 
 Discogs allows 25 requests per minute without a token and 60 with one. The fetch waits between pages to stay under the limit.
 
@@ -161,11 +167,11 @@ Progress is saved in registry.json; rerun the same command then and it picks up 
 
 A full `spotify` run on about 430 albums used up the daily quota. A full `playlist` run needs about one request per matched album plus one per 100 tracks added.
 
-## Spotify API version
+### Spotify API version
 
 The code uses the Web API endpoints as changed in February 2026: `POST /me/playlists` to create a playlist and `/playlists/{id}/items` to read and add tracks. Search returns at most 10 results. See the [February 2026 changelog](https://developer.spotify.com/documentation/web-api/references/changes/february-2026).
 
-## Limitations
+### Limitations
 
 - The NerdyJazz scraper depends on the page's table layout and its "Load More" button. It removes the newsletter popup that covers the button. If the site changes, `collect` reports zero NerdyJazz albums or fails while clicking.
 - Albums that aren't on Spotify, or are listed there under a very different title, stay unmatched. Open the registry entry and set `spotify.album_id` and `spotify.url` by hand, and the next `playlist` run includes the album.
