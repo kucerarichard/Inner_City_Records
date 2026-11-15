@@ -1,6 +1,8 @@
-# inner-city-records
+# Inner City Records
 
-Builds a deduplicated catalogue of the Inner City Records jazz label and its subsidiaries City Sounds and Aural Explorer, matches each album on Spotify, and creates a Spotify playlist with every track, in release-year order.
+Inner City is widely respected by collectors and critics for making vital European and contemporary jazz-fusion accessible in the late 1970s and early 1980s.  Inner City studios, producers and engineers produced marvelously balanced and tasteful recordings of jazz artists and groups (for example the difference made by Inner City can be heard with Ron Malo-produced-and-engineered Arrowhead by the Wayne Johnson Trio versus followup releases by the same group under other labels or independently).
+
+This repo builds a deduplicated catalogue of the Inner City Records jazz label and its subsidiaries City Sounds and Aural Explorer, matches each album on Spotify, and creates a Spotify playlist with every track, in release-year order.
 
 The catalogue comes from two sources:
 
