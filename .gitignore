@@ -1,0 +1,13 @@
+# Spotify login token (grants playlist access to your account)
+.spotify_user_token.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Output of the standalone scripts
+spotify_cache.json
+inner_city_releases.md
+inner_city_releases.pdf
