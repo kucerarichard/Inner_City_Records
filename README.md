@@ -1,12 +1,10 @@
 # Inner City Records
 
-## Why I Am Getting All Inner City Releases
+## Why Am I Collecting All Inner City Releases?
 
-Inner City is widely respected by collectors and critics for making vital European and contemporary jazz-fusion accessible in the late 1970s and early 1980s.  Inner City studios, producers and engineers produced marvelously balanced and tasteful recordings of jazz artists and groups.
+Objectively stated, Inner City is widely respected by collectors and critics for making vital European and contemporary jazz-fusion accessible in the late 1970s and early 1980s.  What I've found is that Inner City studios, producers and engineers produced unusually clear and tastefully balanced recordings of jazz artists and groups from the late 70s.
 
-For example, the difference made by Inner City can be heard in the Ron Malo-produced-and-engineered Arrowhead by the Wayne Johnson Trio (versus followup releases by the same group under other labels or independently).  Malo managed to capture something crystalline, fresh and original, which went missing later, and this is not explained solely by the unfortunately overshadowing and soul-sucking influence of Pat Metheny over Johnson,  but also the absence of Flim and the BB's contributions, previously experienced within the intimacy of Malo's direct approach and Inner City's studios.
-
-Seems like, if you've got limited time, you want to hear and to have reference to the best that was ever done.  Therefore,  this repo exists to save time (in the age of an infinite number of streaming artists).  It could also form the basis of a vinyl collection hobby,  where some appreciation would need to be built up.
+For example, the difference made by Inner City can be heard in the Ron Malo (Rolling Stones) produced-and-engineered Arrowhead by the Wayne Johnson Trio (versus followup releases by the same group under other labels or independently).  Malo managed to capture something crystalline, fresh and original, which went missing later, and this is not explained solely by the unfortunately overshadowing and suffocating influence of Pat Metheny over Johnson,  but also the absence of Flim and the BB's contributions, previously experienced within the intimacy of Malo's direct approach and Inner City's studios.   It's good stuff.
 
 ## Retrieval Repo
 
