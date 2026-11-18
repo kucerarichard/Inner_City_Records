@@ -1,6 +1,6 @@
 # Inner City Records catalogue
 
-429 albums from Discogs and NerdyJazz, 184 on Spotify.
+429 albums from Discogs and NerdyJazz, 192 on Spotify.
 
 | Artist | Album | Year | Label | Cat # | Sources | Spotify |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -409,26 +409,26 @@
 | Toots Thielemans | Live | 1974 | Inner City Records | IC 1145, CDSOL-45652 | [discogs](https://www.discogs.com/release/1390775), nerdyjazz | [Listen](https://open.spotify.com/album/6Ym54X0pRuRGUfT3eRkZxI) |
 | Toots Thielemans | Live 2 | 1976 | Inner City Records | IC 1146 | [discogs](https://www.discogs.com/release/4368156), nerdyjazz | [Listen](https://open.spotify.com/album/6Ym54X0pRuRGUfT3eRkZxI) |
 | Toots Thielemans | Live 3 | 1978 | Inner City Records | IC 1147 | [discogs](https://www.discogs.com/release/5354764), nerdyjazz | [Listen](https://open.spotify.com/album/6Ym54X0pRuRGUfT3eRkZxI) |
-| Toots Thielemans | Spotlight On Toots Thielemans | 1982 | Inner City Records | IC 1148 | [discogs](https://www.discogs.com/release/5221772) |  |
+| Toots Thielemans | Spotlight On Toots Thielemans | 1982 | Inner City Records | IC 1148 | [discogs](https://www.discogs.com/release/5221772) | [Listen](https://open.spotify.com/album/0EaCoIR43p6S4fF0D94h3A) |
 | Toshiko Akiyoshi | Notorious Tourist From The East | 1980 | Inner City Records | IC 6066 | [discogs](https://www.discogs.com/release/4597780) |  |
 | Toshiko Akiyoshi Quartet | Toshiko Plays Toshiko | 1979 |  |  | nerdyjazz |  |
 | Toshiko Akiyoshi Trio | Dedications | 1977 | Inner City Records | IC 6046 | [discogs](https://www.discogs.com/release/1126327), nerdyjazz |  |
 | Toshiyuki Honda | Burnin' Waves | 1978 | Inner City Records | IC 6074 | [discogs](https://www.discogs.com/release/2663403), nerdyjazz |  |
-| Urszula Dudziak | Future Talk | 1979 | Inner City Records | 511707, IC 1066, CDSOL-45603 | [discogs](https://www.discogs.com/release/4957145), nerdyjazz |  |
+| Urszula Dudziak | Future Talk | 1979 | Inner City Records | 511707, IC 1066, CDSOL-45603 | [discogs](https://www.discogs.com/release/4957145), nerdyjazz | [Listen](https://open.spotify.com/album/261tV1jHX1GnEXiTgmsGBU) |
 | Various | Jazz Legacy | 1979 | Inner City Records | IC7100 | [discogs](https://www.discogs.com/release/27778257) |  |
 | Various | Women In Jazz - A Sampler | 1979 | Inner City Records | IC S1 | [discogs](https://www.discogs.com/release/7892479) |  |
-| Victor Assis Brasil | Victor Assis Brasil Quintet | 1979 | Inner City Records | IC 1093 | [discogs](https://www.discogs.com/release/3442246), nerdyjazz |  |
+| Victor Assis Brasil | Victor Assis Brasil Quintet | 1979 | Inner City Records | IC 1093 | [discogs](https://www.discogs.com/release/3442246), nerdyjazz | [Listen](https://open.spotify.com/album/53KEwqh8jbkORkWrR74kO4) |
 | Victor Brady | Classical Soul | 1976 | Inner City Records | IC 1006 | [discogs](https://www.discogs.com/release/3533598), nerdyjazz |  |
-| Victor Feldman Featuring Tom Scott | Your Smile | 1974 | Inner City Records | CRS1005 | [discogs](https://www.discogs.com/release/4392490), nerdyjazz |  |
-| Walt Dickerson | Peace | 1976 | Inner City Records | IC 2042 | [discogs](https://www.discogs.com/release/1945844), nerdyjazz |  |
-| Walter Norris / Aladar Pege | Winter Rose | 1980 | Inner City Records | IC 3038 | [discogs](https://www.discogs.com/release/3483359), nerdyjazz |  |
+| Victor Feldman Featuring Tom Scott | Your Smile | 1974 | Inner City Records | CRS1005 | [discogs](https://www.discogs.com/release/4392490), nerdyjazz | [Listen](https://open.spotify.com/album/6lHTZb9TcHVd2qKE7QDilR) |
+| Walt Dickerson | Peace | 1976 | Inner City Records | IC 2042 | [discogs](https://www.discogs.com/release/1945844), nerdyjazz | [Listen](https://open.spotify.com/album/4jfwNnwXszSTTWyoUhGxg3) |
+| Walter Norris / Aladar Pege | Winter Rose | 1980 | Inner City Records | IC 3038 | [discogs](https://www.discogs.com/release/3483359), nerdyjazz | [Listen](https://open.spotify.com/album/5mwHS6kLYcwiZxw6jsFW6x) |
 | Walter Norris, Aladar Pege | Synchronicity | 1979 | Inner City Records | IC 3028 | [discogs](https://www.discogs.com/release/2489246), nerdyjazz |  |
 | Wayne Johnson | Arrowhead | 1980 | Inner City Records | IC 1098, TIC 1098 | [discogs](https://www.discogs.com/release/2919240), nerdyjazz |  |
 | Willie "The Lion" Smith | Memorial | 1974 |  |  | nerdyjazz |  |
-| Willie "The Lion" Smith | Willie "The Lion" Smith | 1980 | Inner City Records | CDSOL-45619, IC 7015, IC7015 | [discogs](https://www.discogs.com/release/16784169) |  |
+| Willie "The Lion" Smith | Willie "The Lion" Smith | 1980 | Inner City Records | CDSOL-45619, IC 7015, IC7015 | [discogs](https://www.discogs.com/release/16784169) | [Listen](https://open.spotify.com/album/6ui8IXi4U7jemIqUWYpd0K) |
 | Woodenhead | Woodenhead | 1982 | Inner City Records | IC 1156 | [discogs](https://www.discogs.com/release/5138860), nerdyjazz |  |
 | Yoshiko Kimura With Gary Foster | Memories | 1978 | Inner City Records | IC 6043 | [discogs](https://www.discogs.com/release/4303346), nerdyjazz |  |
-| Zbigniew Namyslovski | Namyslovski | 1978 | Inner City Records | IC 1048 | [discogs](https://www.discogs.com/release/1041417), nerdyjazz |  |
+| Zbigniew Namyslovski | Namyslovski | 1978 | Inner City Records | IC 1048 | [discogs](https://www.discogs.com/release/1041417), nerdyjazz | [Listen](https://open.spotify.com/album/6fXUoEN88W8oFZzvPlxuln) |
 | Zbigniew Namysłowski | Air Condition | 1981 | Inner City Records | IC 1130 | [discogs](https://www.discogs.com/release/7012720), nerdyjazz |  |
 | Zoot Sims | Party | 1974 | Inner City Records | CRS 1006 | [discogs](https://www.discogs.com/release/3923557), nerdyjazz |  |
 | Zoot Sims | Brother In Swing | 1979 | Inner City Records | CDSOL-45620, IC 7005 | [discogs](https://www.discogs.com/release/12867299), nerdyjazz |  |
