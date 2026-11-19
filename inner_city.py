@@ -17,6 +17,7 @@ The Spotify app must list this Redirect URI:  http://127.0.0.1:8888/callback
 Steps (each one is safe to rerun):
     python inner_city.py collect      # Discogs + NerdyJazz -> registry.json
     python inner_city.py spotify      # match registry albums on Spotify
+    python inner_city.py add URL      # add an album by hand from its Spotify link
     python inner_city.py report       # registry -> .md and .pdf
     python inner_city.py playlist     # create/update the Spotify playlist
     python inner_city.py all          # collect, spotify, report
@@ -266,6 +267,36 @@ def cmd_spotify(args):
     log(f"{found}/{len(reg['releases'])} albums matched on Spotify.")
 
 
+def cmd_add(args):
+    """Add an album by hand from its Spotify link, e.g. one that neither
+    source lists. The next 'playlist' run adds its tracks (skipping any
+    already there)."""
+    aid = re.sub(r"[?#].*$", "", args.spotify).rstrip("/").rsplit("/", 1)[-1].split(":")[-1]
+    sp = SearchSpotify(*creds())
+    sp._auth()
+    r = sp.s.get(f"{API}/albums/{aid}", headers={"Authorization": f"Bearer {sp.token}"},
+                 timeout=20)
+    if r.status_code == 404:
+        sys.exit(f"No Spotify album with ID {aid}.")
+    r.raise_for_status()
+    al = r.json()
+    artist = args.artist or ", ".join(a["name"] for a in al["artists"])
+    album = args.album or al["name"]
+    year = args.year or int(al["release_date"][:4])
+    url = al["external_urls"]["spotify"]
+
+    reg = load_registry()
+    key = upsert(reg, artist, album, year, "manual", url,
+                 labels=[args.label] if args.label else [])
+    e = reg["releases"][key]
+    if args.year:
+        e["year"] = args.year   # an explicit year wins over the earliest-year rule
+    e["spotify"] = {"checked": date.today().isoformat(), "album_id": al["id"], "url": url}
+    save_registry(reg)
+    log(f"Registry entry '{key}': {e['artist']} - {e['album']} ({e['year']}), "
+        f"{al['total_tracks']} tracks, sources: {', '.join(e['sources'])}")
+
+
 # --------------------------------------------------------------------------
 # Report
 # --------------------------------------------------------------------------
@@ -512,6 +543,13 @@ def main():
     s = sub.add_parser("spotify")
     s.add_argument("--limit", type=int)
     s.add_argument("--recheck", action="store_true", help="search again for every album")
+    d = sub.add_parser("add", help="add an album by hand from its Spotify link")
+    d.add_argument("spotify", help="Spotify album URL, URI, or ID")
+    d.add_argument("--year", type=int, help="original release year (Spotify often "
+                   "gives the reissue date)")
+    d.add_argument("--label", help="label to record for the album")
+    d.add_argument("--artist", help="override the artist name from Spotify")
+    d.add_argument("--album", help="override the album title from Spotify")
     sub.add_parser("report")
     p = sub.add_parser("playlist")
     p.add_argument("--name", default="Inner City Records")
@@ -528,7 +566,7 @@ def main():
             log("No Spotify credentials set; skipping Spotify matching.")
         cmd_report(args)
     else:
-        {"collect": cmd_collect, "spotify": cmd_spotify, "report": cmd_report,
+        {"collect": cmd_collect, "spotify": cmd_spotify, "add": cmd_add, "report": cmd_report,
          "playlist": cmd_playlist}[args.cmd](args)
 
 

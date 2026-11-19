@@ -3346,6 +3346,23 @@
     "url": null
    }
   },
+  "eddie jefferson||body and soul": {
+   "artist": "Eddie Jefferson",
+   "album": "Body And Soul",
+   "year": 1968,
+   "labels": [],
+   "catnos": [],
+   "formats": [],
+   "style": "",
+   "sources": {
+    "manual": "https://open.spotify.com/album/5uCxgpOrWZjqf5tNKeqrKE"
+   },
+   "spotify": {
+    "checked": "2026-11-18",
+    "album_id": "5uCxgpOrWZjqf5tNKeqrKE",
+    "url": "https://open.spotify.com/album/5uCxgpOrWZjqf5tNKeqrKE"
+   }
+  },
   "eddie jefferson||the jazz singer": {
    "artist": "Eddie Jefferson",
    "album": "The Jazz Singer",
@@ -10472,7 +10489,7 @@
   "id": "4IAuKHNvri2ZkQK6MsyVI1",
   "url": "https://open.spotify.com/playlist/4IAuKHNvri2ZkQK6MsyVI1",
   "name": "Inner City Records",
-  "track_count": 1639,
+  "track_count": 1649,
   "updated": "2026-11-18"
  }
 }

@@ -75,6 +75,7 @@ export SPOTIFY_CLIENT_ID=... SPOTIFY_CLIENT_SECRET=... DISCOGS_TOKEN=...
 python inner_city.py collect      # Discogs + NerdyJazz -> registry.json
 python inner_city.py spotify      # match unchecked albums on Spotify
 python inner_city.py report       # registry.json -> inner_city_registry.md/.pdf
+python inner_city.py add URL      # add an album by hand from its Spotify link
 python inner_city.py playlist     # create or update the Spotify playlist
 python inner_city.py all          # collect, spotify, report
 ```
@@ -86,6 +87,8 @@ Options:
 | `collect` | `--skip-discogs`, `--skip-nerdy` | Fetch from one source only. |
 | `spotify` | `--limit N` | Check only the next N unchecked albums. |
 | `spotify` | `--recheck` | Search again for every album, including ones already checked. |
+| `add` | `--year N` | Original release year. Spotify often gives the reissue date. |
+| `add` | `--label`, `--artist`, `--album` | Record a label, or override Spotify's artist or title. |
 | `playlist` | `--name "..."` | Playlist name. Default: `Inner City Records`. |
 | `playlist` | `--public` | Make the playlist public. Default: private. |
 
@@ -119,6 +122,15 @@ The first `playlist` run opens Spotify in your browser and asks you to approve a
 `sources` lists every source that has the album. A `nerdyjazz` value of `null` means NerdyJazz lists the album without a link to its own page. In `spotify`, `checked` is the date of the last search, and an `album_id` of `null` with a date set means the search found no match.
 
 Rerunning `collect` adds new albums and source details to the registry. It keeps the existing Spotify data, and it never removes albums.
+
+The `add` command records albums that neither source lists. It reads the artist, title, and year from Spotify and stores the album link under a `manual` source. If the album is already in the registry, `add` attaches the link to that entry instead of creating a new one. The next `playlist` run adds the album's tracks, skipping any already on the playlist.
+
+```bash
+python inner_city.py add https://open.spotify.com/album/5uCxgpOrWZjqf5tNKeqrKE --year 1968
+```
+```
+Registry entry 'eddie jefferson||body and soul': Eddie Jefferson - Body And Soul (1968), 10 tracks, sources: manual
+```
 
 ### Album matching
 
@@ -172,5 +184,5 @@ The code uses the Web API endpoints as changed in February 2026: `POST /me/playl
 ### Limitations
 
 - The NerdyJazz scraper depends on the page's table layout and its "Load More" button. It removes the newsletter popup that covers the button. If the site changes, `collect` reports zero NerdyJazz albums or fails while clicking.
-- Albums that aren't on Spotify, or are listed there under a very different title, stay unmatched. Open the registry entry and set `spotify.album_id` and `spotify.url` by hand, and the next `playlist` run includes the album.
+- Albums that aren't on Spotify, or are listed there under a very different title, stay unmatched. Find the album on Spotify and run `python inner_city.py add <link>`, and the next `playlist` run includes it.
 - Fuzzy matching can merge two different albums with similar titles by the same artist, such as "Live At Montreux" and "Live In Montreux". Check entries whose `sources` list is unexpected.

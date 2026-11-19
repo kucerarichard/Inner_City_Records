@@ -1,6 +1,6 @@
 # Inner City Records catalogue
 
-429 albums from Discogs and NerdyJazz, 192 on Spotify.
+430 albums from Discogs and NerdyJazz, 193 on Spotify.
 
 | Artist | Album | Year | Label | Cat # | Sources | Spotify |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -142,6 +142,7 @@
 | Earl Hines | Paris Session | 1965 | Inner City Records | IC 1142, CDSOL-45650 | [discogs](https://www.discogs.com/release/5160169), nerdyjazz | [Listen](https://open.spotify.com/album/386DKhKnre8B5RUZUqSOPq) |
 | Eddie "Lockjaw" Davis Quartet | Swingin' Till The Girls Come Home | 1976 | Inner City Records | IC 2058 | [discogs](https://www.discogs.com/release/5159907), nerdyjazz | [Listen](https://open.spotify.com/album/4yl06rWUAfJwtgC4O3ZfSw) |
 | Eddie Daniels With Bucky Pizzarelli | A Flower For All Seasons | 1973 | Inner City Records | CRS1002 | [discogs](https://www.discogs.com/release/7360406), nerdyjazz |  |
+| Eddie Jefferson | Body And Soul | 1968 |  |  | [manual](https://open.spotify.com/album/5uCxgpOrWZjqf5tNKeqrKE) | [Listen](https://open.spotify.com/album/5uCxgpOrWZjqf5tNKeqrKE) |
 | Eddie Jefferson | The Jazz Singer | 1976 | Inner City Records | CDSOL-45602, IC 1016, SFX-10731 | [discogs](https://www.discogs.com/release/12859130), nerdyjazz | [Listen](https://open.spotify.com/album/0ZrFolDokRyhcVkw8VMUYw) |
 | Eddie Jefferson | The Jazz Singer - Vocal Improvisations On Famous Jazz Solos | 1976 | Inner City Records | IC 1016, 1016, SFX-10731 | [discogs](https://www.discogs.com/release/6885005) | [Listen](https://open.spotify.com/album/3l4brsbYU8sdU371eH1rha) |
 | Eddie Jefferson | The Main Man | 1977 | Inner City Records | CDSOL-45621, IC 1033, 1033, 1033 | [discogs](https://www.discogs.com/release/12867359), nerdyjazz | [Listen](https://open.spotify.com/album/4wi9eE4gNCxxW4FToYvyaE) |
