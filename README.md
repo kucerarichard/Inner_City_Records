@@ -2,13 +2,15 @@
 
 ## Why Am I Collecting All Inner City Releases?
 
-Objectively stated, Inner City is widely respected by collectors and critics for making vital European and contemporary jazz-fusion accessible in the late 1970s and early 1980s.  What I've found is that Inner City studios, producers and engineers produced unusually clear and tastefully balanced recordings of jazz artists and groups from the late 70s.
+Objectively stated, Inner City is widely respected by collectors and critics for making vital European and contemporary jazz-fusion accessible in the late 1970s and early 1980s.  What I've found with my own ears is that Inner City (the studios, producers and engineers) had a secret sauce.
 
 | <img src="exhibit_a_front.jpg" width="250"> | <img src="exhibit_a_back.jpg" width="250"> |
 | :---: | :---: |
 | *Exhibit A Front* | *Exhibit A Back* |
 
-For example, the difference made by Inner City can be heard in the Ron Malo (Rolling Stones) produced-and-engineered Arrowhead by the Wayne Johnson Trio (versus followup releases by the same group under other labels or independently).  Malo managed to capture something crystalline, fresh and original, which went missing later, and this is not explained solely by the unfortunately overshadowing and suffocating influence of Pat Metheny over Johnson,  but also the absence of Flim and the BB's contributions, previously experienced within the intimacy of Malo's direct approach and Inner City's studios.   It's good stuff.
+Consider exhibit A, the difference made by Inner City can be heard in the Ron Malo (Rolling Stones) produced-and-engineered Arrowhead by the Wayne Johnson Trio (contrasted with followup releases by the same group, solo, or collaborating with other artists (Flim with Alan Holdsworth later) released under other labels or independently).  Malo managed to capture something crystalline, fresh and original, which went missing later, and this is not explained solely by the unfortunately overshadowing and suffocating influence of Pat Metheny over Johnson,  but also the absence of Flim and the BB's contributions, previously experienced within the intimacy of Malo's direct approach and Inner City's studios.   
+
+That's enough for me, let's listen to all available Inner City Records (turns out, there is indeed some really fine stuff in the discography).
 
 ## Retrieval Repo
 
