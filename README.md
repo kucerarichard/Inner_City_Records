@@ -12,6 +12,8 @@ Consider exhibit A, the difference made by Inner City can be heard in the Ron Ma
 
 That's enough for me, let's listen to all available Inner City Records (turns out, there is indeed some really fine stuff in the discography).  The Playlist:  https://open.spotify.com/playlist/4IAuKHNvri2ZkQK6MsyVI1?si=fc1cca02548c4595
 
+Sadly,  Exhibit A is not available on Spotify,  you can find it here: https://www.youtube.com/watch?v=ynvJEdMHQtc and higher fidelity individual tracks on YT.  You can also contact Wayne directly he may have some hifi cassettes left over,  and he will most likely have CDs.  The cassettes sound incredible for the two dozen or so plays you'll get out of them,  I wore mine out,  it sounded so much better than digital media.
+
 ## Retrieval Repo
 
 This repo builds a deduplicated catalogue of the Inner City Records jazz label and its subsidiaries City Sounds and Aural Explorer, matches each album on Spotify, and creates a Spotify playlist with every track, in release-year order.
