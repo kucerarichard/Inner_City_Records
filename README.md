@@ -10,7 +10,7 @@ Objectively stated, Inner City is widely respected by collectors and critics for
 
 Consider exhibit A, the difference made by Inner City can be heard in the Ron Malo (Rolling Stones) produced-and-engineered Arrowhead by the Wayne Johnson Trio (contrasted with followup releases by the same group, solo, or collaborating with other artists (Flim with Alan Holdsworth later) released under other labels or independently).  Malo managed to capture something crystalline, fresh and original, which went missing later, and this is not explained solely by the unfortunately overshadowing and suffocating influence of Pat Metheny over Johnson,  but also the absence of Flim and the BB's contributions, previously experienced within the intimacy of Malo's direct approach and Inner City's studios.   
 
-That's enough for me, let's listen to all available Inner City Records (turns out, there is indeed some really fine stuff in the discography).
+That's enough for me, let's listen to all available Inner City Records (turns out, there is indeed some really fine stuff in the discography).  The Playlist:  https://open.spotify.com/playlist/4IAuKHNvri2ZkQK6MsyVI1?si=fc1cca02548c4595
 
 ## Retrieval Repo
 
